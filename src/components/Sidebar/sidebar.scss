@@ -1,0 +1,48 @@
+.sidebar {
+    min-height: 100vh;
+    padding-top: 24px;
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 0px 5px #9a9a9a68;
+    &__logo {
+        padding-left: 24px;
+        padding-bottom: 46px;
+    }
+    &__title {
+        padding-left: 24px;
+        padding-bottom: 20px;
+        color: #A0A4A8;
+    }
+    &__list {
+        padding-left: 24px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 28px;
+        a {
+            color: #52575C;
+            transition: 0.25s;
+            &:hover {
+                color: #336CFB;
+            }
+            &.active {
+                color: #336CFB;
+            }
+        }
+    }
+    &__help {
+        margin-top: 28px;
+        padding-top: 22px;
+        padding-left: 24px;
+        display: flex;
+        align-items: center;
+        border-top: 2px solid #E8E8E8;
+        gap: 12px;
+        color: #52575C;
+        cursor: pointer;
+        transition: 0.25s;
+            &:hover {
+                color: #336CFB;
+            }
+    }
+}

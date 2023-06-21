@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  input {
+    border: none;
+    outline: none;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  
+
+  .App {
+      &__left {
+        width: 20%;   
+      }
+      &__right {
+        width: 80%;
+        padding: 12px 36px 30px;
+        background-color: #F6F8FB;
+      }
+  }
+
+  

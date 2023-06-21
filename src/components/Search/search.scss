@@ -1,0 +1,32 @@
+.search {
+    position: sticky;
+    top: 0;
+    margin-bottom: 52px;
+    padding: 15px 0px;
+    background-color: #f6f8fbb8;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-between;
+    &__box {
+        width: 350px;
+        padding: 13px 16px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background-color: #fff;
+        border-radius: 50px;
+        input {
+            width: 100%;
+            font-size: 14px;
+        }
+        img {
+            width: 15px;
+            cursor: pointer;
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}

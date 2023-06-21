@@ -1,0 +1,28 @@
+.home {
+    &__boxes {
+        margin-bottom: 40px;
+        display: flex;
+        gap: 30px;
+    }
+    &__box {
+        width: 100%;
+        padding: 24px;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-end;
+        gap: 24px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+    &__text {
+        color: #25282B;
+        padding-bottom: 5px;
+    }
+    &__number {
+        font-size: 18px;
+        color: #336CFB;
+    }
+    .bemor {
+        margin-bottom: 60px;
+    }
+}
